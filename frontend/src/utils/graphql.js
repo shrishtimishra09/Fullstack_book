@@ -1,3 +1,5 @@
+const GRAPHQL_API = "https://fullstack-book-9.onrender.com/graphql/";
+
 export async function fetchGraphQL(query, variables = {}) {
   const response = await fetch("http://127.0.0.1:8000/graphql/", {
     method: "POST",
